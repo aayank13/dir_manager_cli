@@ -97,7 +97,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Author
 
-**Aayan Kumar**  
+**Aayan**  
 GitHub: [@aayank13](https://github.com/aayank13)  
 NPM: [@aayank13](https://www.npmjs.com/~aayank13)
 ```
