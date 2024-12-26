@@ -1,8 +1,11 @@
 {
-  "name": "node-cli",
+  "name": "@aayank13/dir_manager",
   "description": "",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "bin": {
+    "dirmanager": "./dist/index.js"
+  },
   "scripts": {
     "build": "npx tsc"
   },
@@ -15,7 +18,12 @@
     "@types/node": "^22.10.2",
     "typescript": "^5.7.2"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "cli",
+    "npmtool"
+  ],
+  "author": "Aayan",
+  "license": "ISC",
+  "repository": "https://github.com/aayank13/dir_manager_cli",
+  "homepage": "https://github.com/aayank13/dir_manager_cli#readme"
 }

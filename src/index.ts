@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 import { Command } from 'commander';
 import figlet from "figlet";
 import fs from "fs";
@@ -5,7 +7,7 @@ import path from "path";
 
 const program = new Command();
 
-console.log(figlet.textSync("Directory Manager"));
+console.log(figlet.textSync("Dir Manager"));
 
 program
   .version("0.1.0")
