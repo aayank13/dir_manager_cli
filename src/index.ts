@@ -40,7 +40,28 @@ async function listDirContents(filepath: string) {
     }
 }
 
+function createDir(filepath: string) {
+    if (!fs.existsSync(filepath)) {
+        fs.mkdirSync(filepath);
+        console.log("Directory created successfully");
+    }
+}
+
+function createFile(filepath: string) {
+    fs.openSync(filepath, "w");
+    console.log("File created successfully");
+}
+
 if (options.ls) {
     const filepath = typeof options.ls === "string" ? options.ls : __dirname;
     listDirContents(filepath);
+}
+if (options.mkdir) {
+    createDir(path.resolve(__dirname, options.mkdir));
+}
+if (options.touch) {
+    createFile(path.resolve(__dirname, options.touch));
+}
+if (!process.argv.slice(2).length) {
+    program.outputHelp();
   }
