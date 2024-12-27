@@ -1,10 +1,10 @@
 {
   "name": "@aayank13/dir_manager",
   "description": "",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist/index.js",
   "bin": {
-    "dirmanager": "./dist/index.js"
+    "dirman": "./dist/index.js"
   },
   "scripts": {
     "build": "npx tsc"
