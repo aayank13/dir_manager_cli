@@ -1,7 +1,7 @@
 {
   "name": "@aayank13/dir_manager",
   "description": "",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "main": "dist/index.js",
   "bin": {
     "dirmanager": "./dist/index.js"

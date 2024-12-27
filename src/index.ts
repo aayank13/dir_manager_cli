@@ -1,4 +1,4 @@
-#!/usr/bin/env ts-node
+#! /usr/bin/env node
 
 import { Command } from "commander";
 import figlet from "figlet";
@@ -10,7 +10,7 @@ const program = new Command();
 console.log(figlet.textSync("Dir Manager"));
 
 program
-  .version("0.1.3")
+  .version("0.1.4")
   .description("A CLI tool for managing directories and files")
   .option("-l, --ls [value]", "List directory contents")
   .option("-m, --mkdir <value>", "Create a directory")
